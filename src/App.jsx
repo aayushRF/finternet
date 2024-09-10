@@ -5,33 +5,48 @@ const App = () => {
   return (
     <div>
 
-      <div className='border-b'>
-        <h1 className="text-xl font-bold py-4 px-10">Playground</h1>
+      <div className=' flex border-b'>
+      <img className=" mt-[10px] ml-[30px] h-[40px]"  src="https://finternet-playground.vercel.app/finternetLogo.png" alt="React Image"  />
+        <h1 className="text-x py-4 px-10 ml-[-37px]"> Playground</h1>
       </div>
       <div className="h-screen flex bg-gray-100">
 
         {/* Sidebar */}
         <div className="w-64 bg-white shadow-md">
-
           <nav className="p-4">
-            <h2 className="font-semibold mb-2">Home</h2>
-            <a href="#" className="block text-blue-600 hover:underline mb-2">Playground Onboarding</a>
+            <h2 className="font-semibold mb-4">Home</h2>
+            <a href="#" className="block text-black-600  mb-4 pl-[10px]">Playground Onboarding</a>
 
-            <h2 className="font-semibold mt-4 mb-2">User Work flows</h2>
-            <a href="#" className="block text-blue-600 hover:underline mb-2">User onboarding</a>
-            <a href="#" className="block text-blue-600 hover:underline mb-2">Real Estate issuance flow</a>
-            <a href="#" className="block text-blue-600 hover:underline mb-2">Investor flow</a>
-            <a href="#" className="block text-blue-600 hover:underline mb-2">Investor VC flow</a>
+ {/* Horizontal line */}
 
-            <h2 className="font-semibold mt-4 mb-2">Guild</h2>
-            <a href="#" className="block text-blue-600 hover:underline mb-2">Request for Quote</a>
-            <a href="#" className="block text-blue-600 hover:underline mb-2">Guild onboarding</a>
-            <a href="#" className="block text-blue-600 hover:underline mb-2">Guild ticket management</a>
+              <hr className="border-t border-gray-200" />
 
-            <h2 className="font-semibold mt-4 mb-2">Token manager</h2>
-            <a href="#" className="block text-blue-600 hover:underline mb-2">Token manager onboarding</a>
-            <a href="#" className="block text-blue-600 hover:underline mb-2">Token manager asset management</a>
-            <a href="#" className="block text-blue-600 hover:underline mb-2">Token manager Asset whitelisting</a>
+
+            <h2 className="font-semibold mt-4 mb-4">User Work flows</h2>
+            <a href="#" className="block text-black-600  mb-4 pl-[10px]">User onboarding</a>
+            <a href="#" className="block text-black-600  mb-4 pl-[10px]">Real Estate issuance flow</a>
+            <a href="#" className="block text-black-600  mb-4 pl-[10px]">Investor flow</a>
+            <a href="#" className="block text-black-600  mb-4 pl-[10px]">Investor VC flow</a>
+
+ {/* Horizontal line */}
+ 
+              <hr className="border-t border-gray-200" />
+          
+
+            <h2 className="font-semibold mt-4 mb-4">Guild</h2>
+            <a href="#" className="block text-black-600  mb-4 pl-[10px]">Request for Quote</a>
+            <a href="#" className="block text-black-600  mb-4 pl-[10px]">Guild onboarding</a>
+            <a href="#" className="block text-black-600  mb-4 pl-[10px]">Guild ticket management</a>
+
+ {/* Horizontal line */}
+ 
+              <hr className="border-t border-gray-200" />
+            
+
+            <h2 className="font-semibold mt-4 mb-4">Token manager</h2>
+            <a href="#" className="block text-black-600  mb-4 pl-[10px]">Token manager onboarding</a>
+            <a href="#" className="block text-black-600  mb-4 pl-[10px]">Token manager asset management</a>
+            <a href="#" className="block text-black-600  mb-4 pl-[10px]">Token manager Asset whitelisting</a>
           </nav>
         </div>
 
